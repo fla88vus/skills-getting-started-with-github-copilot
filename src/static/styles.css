@@ -1,3 +1,67 @@
+.participants-section {
+  margin-top: 1.2em;
+  background: #f0f4ff;
+  border-radius: 8px;
+  padding: 0.8em 1em;
+  box-shadow: 0 1px 3px rgba(26,35,126,0.05);
+}
+
+.participants-section h5 {
+  margin: 0 0 0.5em 0;
+  font-size: 1em;
+  color: #3949ab;
+  letter-spacing: 0.5px;
+}
+
+.participants-list {
+
+  margin: 0;
+  padding-left: 0;
+  color: #333;
+  font-size: 0.98em;
+  list-style: none;
+}
+
+.participant-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 0.2em;
+}
+
+.participant-email {
+  flex: 1;
+  padding-right: 0.5em;
+  word-break: break-all;
+}
+
+.delete-participant {
+  background: #ff5252;
+  border: none;
+  color: #fff;
+  border-radius: 50%;
+  width: 1.6em;
+  height: 1.6em;
+  font-size: 1em;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 0.3em;
+  transition: background 0.2s;
+}
+
+.delete-participant:hover {
+  background: #c62828;
+}
+
+.participants-list.empty {
+  color: #888;
+}
+
+.participants-list li {
+  margin-bottom: 0.2em;
+  line-height: 1.5;
+}
 * {
   box-sizing: border-box;
   margin: 0;
