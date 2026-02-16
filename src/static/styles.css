@@ -14,10 +14,44 @@
 }
 
 .participants-list {
+
   margin: 0;
-  padding-left: 1.2em;
+  padding-left: 0;
   color: #333;
   font-size: 0.98em;
+  list-style: none;
+}
+
+.participant-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 0.2em;
+}
+
+.participant-email {
+  flex: 1;
+  padding-right: 0.5em;
+  word-break: break-all;
+}
+
+.delete-participant {
+  background: #ff5252;
+  border: none;
+  color: #fff;
+  border-radius: 50%;
+  width: 1.6em;
+  height: 1.6em;
+  font-size: 1em;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 0.3em;
+  transition: background 0.2s;
+}
+
+.delete-participant:hover {
+  background: #c62828;
 }
 
 .participants-list.empty {
